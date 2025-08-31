@@ -27,8 +27,8 @@ const questionsRoute = require('./routes/questions');
 // Usar rutas
 app.use('/api/questions', questionsRoute);
 
-// Escuchar en el puerto 3001
-const PORT = process.env.PORT || 3001;
+// Escuchar en el puerto 5000
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });

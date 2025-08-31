@@ -43,7 +43,7 @@ const Exam = () => {
 
   const fetchQuestions = async () => {
     try {
-      const response = await axios.get('http://localhost:3001/api/questions/random');
+      const response = await axios.get('http://localhost:5000/api/questions/random');
       setQuestions(response.data);
     } catch (error) {
       console.error('Error al cargar las preguntas:', error);

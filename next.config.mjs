@@ -1,9 +1,14 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  async exportPathMap() {
-    return {
-      '/': { page: '/exam' },
-    };
+  async redirects() {
+    return [
+      {
+        source: "/",
+        destination: "/exam",
+        permanent: true,
+      },
+    ];
   },
 };
 

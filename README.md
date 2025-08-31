@@ -1,40 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🚀Examen en línea de temática Gamer - Frontend y Backend
 
-## Getting Started
+📌Descripción
+Test App es un sistema de examen en línea con temática de videojuegos. El examen selecciona aleatoriamente 10 preguntas de un total de 30 preguntas previamente cargadas en la base de datos mediante un seed. 
 
-First, run the development server:
+Cada pregunta tiene un contador de 15 segundos para contestar. Al finalizar el examen, el sistema muestra una notificación indicando si el usuario aprobó o no según su calificación.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este proyecto combina frontend y backend en la misma aplicación y permite evaluar conocimientos de manera interactiva y dinámica.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🛠️Tecnologías utilizadas
+-Frontend: Next.js, Emotion Styled, FontAwesome, Axios, Yarn
+-Backend: Node.js, Express, MongoDB (Mongoose), Cors, NPM
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+⚙️Instalación y ejecución
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1.-Clonar el repositorio:
+git clone https://github.com/EdannyDev/test-app.git
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+2.-Instalar dependencias:
+npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3.-Configurar variables de entorno en un archivo .env en la raíz del proyecto:
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/testDB
 
-## Learn More
+4.-Ejecutar el servidor backend y frontend en modo desarrollo:
+node server.js para backend y yarn dev para frontend
 
-To learn more about Next.js, take a look at the following resources:
+5.-Abrir la aplicación en el navegador:
+http://localhost:3000 mientras el backend este corriendo en http://localhost:5000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+✨Características principales
+-Examen en línea con temática de videojuegos.
+-Selección aleatoria de 10 preguntas de un total de 30.
+-Contador de 15 segundos por pregunta.
+-Notificación de resultado al finalizar el examen, indicando si se aprobó o no.
+-Frontend moderno con Emotion Styled y FontAwesome.
+-Backend robusto con Node.js, Express y MongoDB.
