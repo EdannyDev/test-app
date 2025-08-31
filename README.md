@@ -54,6 +54,9 @@ http://localhost:5000
 
 ```
 
+## 🗂️Endpoints principales
+- Preguntas: `/api/questions`
+
 ## ✨Características principales
 - Examen en línea con temática de videojuegos
 - Selección aleatoria de 10 preguntas de un total de 30
