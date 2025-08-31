@@ -23,6 +23,7 @@ Este proyecto combina **frontend y backend** en la misma aplicación y permite e
 - **Express** (Framework para APIs REST)  
 - **MongoDB / Mongoose** (Base de datos NoSQL y modelado de datos)  
 - **CORS** (seguridad en solicitudes cross-origin)
+- **dotenv** (variables de entorno)
 - **npm** (gestor de dependencias backend)
 
 ## ⚙️Instalación y ejecución  
