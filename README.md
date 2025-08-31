@@ -12,18 +12,18 @@ Este proyecto combina **frontend y backend** en la misma aplicación y permite e
 
 ## 🛠️Tecnologías utilizadas
 ### Frontend  
-- **Next.js**  
-- **Emotion Styled**  
-- **FontAwesome**  
-- **Axios**  
-- **Yarn**  
+- **Next.js** (Framework para frontend)
+- **Emotion Styled** (estilos)
+- **FontAwesome** (iconos)  
+- **Axios** (consumo de APIs)
+- **Yarn** (gestor de paquetes)
 
 ### Backend  
 - **Node.js**  
 - **Express** (Framework para APIs REST)  
 - **MongoDB / Mongoose** (Base de datos NoSQL y modelado de datos)  
-- **CORS**  
-- **NPM**  
+- **CORS** (seguridad en solicitudes cross-origin)
+- **npm** (gestor de dependencias backend)
 
 ## ⚙️Instalación y ejecución  
 
